@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Courier+Prime&display=swap');
+/* 1. DEFAULT ELEMENT STYLING */
+html {
+    box-sizing: border-box;
+    font:normal 16px/1.5 'Courier Prime', monospace;
+}
+*, *::before, *::after {
+    box-sizing:inherit;
+}
+body {
+    margin:0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cookie', cursive;
+}
+h1{
+    font-size: 5em;
+}
+main{
+    display: block;
+    margin: 0 auto;
+}
+/* 2. GENERAL USE CLASSES */
+.page-wrapper {
+    max-width:1200px;
+    margin:0 auto;
+}
+/* 3. BANNER */
+#banner-wrapper{
+    display: block;
+    margin: 8em auto;
+    width: 1000px;
+    height: 200px;
+    background-color: #feba92;
+}
+.banner-img {
+    display: block;
+    margin-top: -5em;
+    width:20px;
+    float: right;
+    margin-right: 30em;
+}
+.banner-text {
+    display: block;
+    float:left;
+    margin-left: 8em;
+    text-align: center;
+    margin-top: -2em;
+}
+.banner-text h1 span {
+    display: block;
+    white-space:pre-line;
+    font:normal 36px/1.5 'Courier Prime', monospace;
+}
+.banner-img p{
+    width: 400px;
+    margin-left: 4em;
+}
+/* 4. SELECT AREA */
+#selected {
+    display: block;
+    margin: 0 auto;
+}
+#yourplan {
+    display: block;
+    margin: 0 auto;
+    width: 410px;
+    height: 50px;
+    border: 5px double #000;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 1.5em;
+}
+#subject {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 410px;
+    height: 50px;
+    border: 5px double #000;
+    margin-top: 1em;
+    font-family: 'Cookie', cursive;
+    font-size: 1.5em;
+}
+#subject.option {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+/* 5. DAYS SECTTION */
+.days-wrapper {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.row-wrapper {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    margin-top: 3em;
+}
+.col-50 {
+    flex: 1 0 0;
+    text-align: center;
+}
+
+.block {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000;
+    text-align: center;
+}
+/* 6. BUTTONS */
+#buttons {
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+}
+
+#submit-btn {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 5px double #000;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.5em;
+}
+#refresh-btn{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 5px double #000;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.5em;
+}
+/* 7. JS STYLE */
+.list {
+    width:200px;
+    height: 40px;
+    border: 5px double #000;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+ul{
+    list-style: none;
+    margin-left: -2.5em;
+}
+ul li{
+    line-height: 2em;
+}
+
+.done {
+	background-color: #fe7624;
+}
+.delete {
+    display: none;
+}
+.delbutton {
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

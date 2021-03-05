@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>To do list</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/javascript.js"></script>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <main id="main">
+             <!--banner section-->
+                <div id="banner-wrapper">
+                    <div class="banner-img">
+                        <img src="images/team_solid%20III.png" width="450" alt="a group of people is working together"/>
+                        <p id="current-time">Current time is:</p>
+                    </div>
+                    <div class="banner-text">
+                        <h1>Weekly<span>To do list</span></h1>
+                    </div>
+                 </div>
+                <!--select section-->
+                <div id="selected">
+                    <div>
+                        <input type="text" id="yourplan" name="yourplan" placeholder="-Write your plan here-" />
+                    </div>
+                    <div id="title">
+                        <select id="subject" name="subject">
+                            <option value="0">-Choose which day-</option>
+                            <option value="1">Monday</option>
+                            <option value="2">Tuesday</option>
+                            <option value="3">Wednesday</option>
+                            <option value="4">Thursday</option>
+                            <option value="5">Friday</option>
+                            <option value="6">Weekend</option>
+                        </select>
+                    </div>
+                    <div id="buttons">
+                        <button type="submit" id="submit-btn" name="submit-btn">Go</button>
+                        <button type="submit" id="refresh-btn" name="submit-btn">New Week</button>
+                    </div>
+               </div>
+                <!--choose which day section-->
+                <div class="days-wrapper">
+                    <div class="row-wrapper">
+                        <div>
+                            <img src="images/search_outline%20II%20copy.png" alt="a man is looking for something" width="240"/>
+                            <div class="block" >
+                            <div class="col-50">
+                            <h2>Monday</h2>
+                                <div id="box1">
+                                <ul id="ul1">
+                                    <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div>
+                            <img src = "images/support_solid%20I.png" alt= "a girl is sitting beside a table" id="image-2" width="200"/>
+                            <div class="block" >
+                            <div class="col-50">
+                            <h2>Tuesday</h2>
+                                <div id="box2">
+                                <ul id="ul2">
+                                    <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row-wrapper">
+                        <div>
+                            <div class="block">
+                            <div class="col-50">
+                            <h2>Wednesday</h2>
+                                <div id="box3">
+                                <ul id="ul3">
+                                    <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="block">
+                            <div class="col-50">
+                            <h2>Thursday</h2>
+                                <div id="box4">
+                                <ul id="ul4">
+                                    <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-wrapper">
+                        <div>
+                            <div class="block">
+                            <div class="col-50">
+                            <h2>Friday</h2>
+                                <div id="box5">
+                                <ul id="ul5">
+                                    <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div>
+                            <div class="block">
+                            <div class="col-50">
+                            <h2>Weekend</h2>
+                                <div id="box6">
+                                <ul id="ul6">
+                                    <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
