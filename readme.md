@@ -1,4 +1,4 @@
-## CSS animation with JavaScript
+## JS To do list
 <img src="images/overall.png" />
 
 ## Here is the video link
