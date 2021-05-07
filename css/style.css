@@ -165,8 +165,28 @@ ul li{
     border: 1px solid #000;
     float: left;
 }
-
-
+@media (max-width: 650px) {
+    #banner-wrapper{
+        width: 280px;
+    }
+    .banner-img{
+       float: none;
+        margin-right: 0;
+    }
+    .banner-img img{
+        width: 280px;
+    }
+    .banner-text {
+       margin-left: 0;
+    }
+    .banner-img p{
+        width: 280px;
+        margin-left: 0;
+    }
+    .block{
+        width: 300px;
+    }
+}
 
 
 
